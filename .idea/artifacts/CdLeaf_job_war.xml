@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CdLeaf-job:war">
+    <output-path>$PROJECT_DIR$/CdLeaf-job/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CdLeaf-job</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CdLeaf-job-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CdLeaf-job:war exploded" />
+    </root>
+  </artifact>
+</component>

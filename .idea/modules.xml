@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CdLeafApp.iml" filepath="$PROJECT_DIR$/CdLeafApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CdLeafApp-account/CdLeafApp-account.iml" filepath="$PROJECT_DIR$/CdLeafApp-account/CdLeafApp-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CdLeafApp-core/CdLeafApp-core.iml" filepath="$PROJECT_DIR$/CdLeafApp-core/CdLeafApp-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CdLeafApp-ear/CdLeafApp-ear.iml" filepath="$PROJECT_DIR$/CdLeafApp-ear/CdLeafApp-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CdLeafApp-job/CdLeafApp-job.iml" filepath="$PROJECT_DIR$/CdLeafApp-job/CdLeafApp-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CdLeafApp-stock/CdLeafApp-stock.iml" filepath="$PROJECT_DIR$/CdLeafApp-stock/CdLeafApp-stock.iml" />
+    </modules>
+  </component>
+</project>

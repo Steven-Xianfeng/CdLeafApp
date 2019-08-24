@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<project
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+        xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.cdleaf</groupId>
+        <artifactId>CdLeafApp</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.cdleaf</groupId>
+    <artifactId>CdLeafApp-ear</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>CdLeafApp-ear</name>
+    <url>http://maven.apache.org</url>
+    <packaging>ear</packaging>
+
+    <dependencies>
+        <!-- Package war in the ear file -->
+        <dependency>
+            <groupId>com.cdleaf</groupId>
+            <artifactId>CdLeafApp-job</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+        <!-- Package war in the ear file -->
+        <dependency>
+            <groupId>com.cdleaf</groupId>
+            <artifactId>CdLeafApp-stock</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+    </dependencies>
+
+    <!-- Plugin to bundle the ear file-->
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-ear-plugin</artifactId>
+
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+</project>

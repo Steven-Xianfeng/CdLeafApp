@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="market-stock:war">
+    <output-path>$PROJECT_DIR$/CdLeaf-stock/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>market-stock</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CdLeaf-stock-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="market-stock:war exploded" />
+    </root>
+  </artifact>
+</component>

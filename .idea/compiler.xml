@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CdLeafApp-job" />
+        <module name="CdLeafApp-ear" />
+        <module name="CdLeafApp-core" />
+        <module name="CdLeafApp-stock" />
+        <module name="CdLeafApp-account" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CdLeafApp" target="1.8" />
+      <module name="CdLeafApp-account" target="1.8" />
+      <module name="CdLeafApp-core" target="1.8" />
+      <module name="CdLeafApp-ear" target="1.8" />
+      <module name="CdLeafApp-job" target="1.8" />
+      <module name="CdLeafApp-stock" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CdLeafApp-account" options="-parameters" />
+      <module name="CdLeafApp-core" options="-parameters" />
+      <module name="CdLeafApp-ear" options="-parameters" />
+      <module name="CdLeafApp-job" options="-parameters" />
+      <module name="CdLeafApp-stock" options="-parameters" />
+    </option>
+  </component>
+</project>

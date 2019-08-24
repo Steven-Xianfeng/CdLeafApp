@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CdLeafApp-stock:war">
+    <output-path>$PROJECT_DIR$/CdLeafApp-stock/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CdLeafApp-stock</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CdLeafApp-stock-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CdLeafApp-stock:war exploded" />
+    </root>
+  </artifact>
+</component>

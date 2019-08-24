@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CdLeaf-core:war exploded">
+    <output-path>$PROJECT_DIR$/CdLeaf-core/target/CdLeaf-core</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>CdLeaf-core</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CdLeafApp-core" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/CdLeafApp-core/target/CdLeaf-core/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="CdLeafApp-core/web/Web" />
+    </root>
+  </artifact>
+</component>

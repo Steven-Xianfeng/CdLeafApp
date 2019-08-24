@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="CdLeafApp-ear:ear">
+    <output-path>$PROJECT_DIR$/CdLeafApp-ear/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CdLeafApp-ear</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CdLeafApp-ear-1.0-SNAPSHOT.ear">
+      <element id="artifact" artifact-name="CdLeafApp-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>
